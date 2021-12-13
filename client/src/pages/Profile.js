@@ -241,7 +241,7 @@ function Profile(props) {
                                             <Typography variant="body2" component="p">
                                                 {post?.photo && <img
                                                     style={{ height: '200px', width: '100%', borderRadius: '5px' }}
-                                                    src={`http://localhost:8000/${post?.photo}`} alt={post?.photo} />}
+                                                    src={`https://mernappposts.herokuapp.com/${post?.photo}`} alt={post?.photo} />}
                                                 {post.content}
                                             </Typography>
                                         </CardContent>

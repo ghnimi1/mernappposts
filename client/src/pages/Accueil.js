@@ -192,7 +192,7 @@ function Accueil(props) {
                                     <Typography variant="body2" component="p">
                                         {post?.photo && <img
                                             style={{ height: '150px', width: '100%' }}
-                                            src={`http://localhost:8000/${post?.photo}`} alt={post?.photo} />}
+                                            src={`https://mernappposts.herokuapp.com/${post?.photo}`} alt={post?.photo} />}
                                         {post.content}
                                     </Typography>
 
